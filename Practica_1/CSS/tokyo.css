@@ -4,11 +4,31 @@
 }
 
 header{
-    background:lightcoral;
+    background:rgb(255, 96, 96);
     height: 10vh;
 }
 h1{
     color: white;
     font-size: 50px;
     text-align: center;
+}
+.container{
+    height: 80vh;
+    background-color: rgb(253, 228, 228);
+}
+aside{
+    height: 100%;
+    width: 25%;
+    background:rgb(255, 169, 169);
+    padding-top: 10vh;
+    float: left;
+}
+
+
+.contenedorLinks > a{
+    text-align: center;
+    display: block;
+    font-size: 30px;
+    margin: 2px, 0px;
+    color: teal;
 }
