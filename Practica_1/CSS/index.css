@@ -1,5 +1,6 @@
 *{
     margin: 0;
+    box-sizing: border-box;
 }
 header{
     background-color:#666666;
@@ -9,4 +10,23 @@ h1{
     text-align: center;
     color: white;
     font-size: 50px;
+}
+.container{
+    height: 85vh;
+    background-color: whitesmoke;
+
+}
+
+aside{
+    height: 100%;
+    width: 25%;
+    background: darkgrey;
+    padding-top: 15%;
+}
+
+aside > .contenedorLinks{
+    text-align: center;
+    width: 80%;
+    height: 20%;
+    background: cadetblue;
 }
