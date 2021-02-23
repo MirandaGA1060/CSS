@@ -19,16 +19,41 @@ h1{
 aside{
     height: 100%;
     width: 25%;
-    background:rgb(255, 169, 169);
-    padding-top: 10vh;
+    background:rgb(243, 131, 131);
+    padding-top: 8vh;
     float: left;
 }
 
+aside > .contenedorLinks{
+    text-align: center;
+    margin: auto;
+    width: 80%;
+    height: 20%;
+}
 
 .contenedorLinks > a{
-    text-align: center;
     display: block;
     font-size: 30px;
-    margin: 2px, 0px;
+    margin-top: 10px;
     color: teal;
+}
+
+section{
+    height: 100%;
+    width: 75%;
+    float: left;
+}
+h3{
+    font-size: 40px;
+    width: 90%;
+    margin: 5% auto;
+}
+.textoPrincipal{
+    font-size: 20px;
+    margin: 5%auto;
+    width: 90%;
+}
+iframe{
+    display: block;
+    margin: 10% auto;
 }
