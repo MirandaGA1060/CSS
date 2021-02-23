@@ -35,7 +35,7 @@ aside > .contenedorLinks{
     display: block;
     font-size: 30px;
     margin-top: 10px;
-    color: teal;
+    color: white;
 }
 
 section{
@@ -52,8 +52,16 @@ h3{
     font-size: 20px;
     margin: 5%auto;
     width: 90%;
+    text-align: justify;
 }
 iframe{
     display: block;
     margin: 10% auto;
+}
+footer{
+    background:rgb(255, 96, 96);
+    height: 10vh;
+    text-align: center;
+    font-size: 20px;
+    color: white;
 }
