@@ -4,7 +4,7 @@
 }
 header{
     background-color:#666666;
-    height: 50vh;
+    height: 10vh;
 }
 h1{
     text-align: center;
@@ -12,7 +12,7 @@ h1{
     font-size: 50px;
 }
 .container{
-    height: 85vh;
+    height: 80vh;
     background-color: whitesmoke;
 
 }
@@ -21,12 +21,53 @@ aside{
     height: 100%;
     width: 25%;
     background: darkgrey;
-    padding-top: 15%;
+    padding-top: 10%;
+    float: left;
 }
 
 aside > .contenedorLinks{
     text-align: center;
     width: 80%;
     height: 20%;
-    background: cadetblue;
 }
+
+.contenedorLinks > a {
+    display: block;
+    font-size: 30px;
+    margin: 2px, 0px;
+    color: teal;
+}
+
+section{
+    height: 100%;
+    width: 75%;
+    float: left;
+}
+
+h3{
+    font-size: 50px;
+    width: 90%;
+    margin: 5% auto;
+    
+
+}
+
+.textoPrincipal{
+    font-size: 20px;
+    text-align: justify;
+    margin: 10px auto;
+    width: 90%;
+}
+ iframe{
+     height: 40%;
+     display: block;
+     margin: 5% auto;
+ }
+ footer{
+     text-align: center;
+     height: 10vh;
+     color: white;
+     font-size: 20px;
+    background: #666666;
+
+ }
