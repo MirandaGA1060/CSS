@@ -8,11 +8,10 @@ header{
 
 header> h1{
     color: gray;
-    font-size: 50px;
+    font-size: 40px;
     font-weight: lighter;
     font-family:'Helvetica';
     position: absolute;
-    bottom: -20px;
     left: 10px;
 }
 
