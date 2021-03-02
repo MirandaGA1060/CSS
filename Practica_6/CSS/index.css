@@ -1,0 +1,396 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Poppins:wght@300&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+span{
+    color:olivedrab;
+}
+
+header{
+    height: 15vh;
+    width: 100%;
+    background: rgb(214, 214, 214);
+    position: relative;
+}
+
+header> h1{
+    color: gray;
+    font-size: 60px;
+    font-weight: lighter;
+    font-family:'Poppins', sans-serif;
+    position: absolute;
+    left: 10px;
+    bottom: 15px;
+}
+header> p{
+    color: rgb(114, 168, 31);
+    font-size: 20px;
+    font-weight: lighter;
+    font-family:'Poppins', sans-serif;
+    position: absolute;
+    left: 70px;
+    bottom: 2px;
+}
+
+.menu{
+    height: 5vh;
+}
+.menu >table{
+    width: 100%;
+    border: 1px solid white;
+}
+.menu> table >tbody >tr > td{
+    text-align: center;
+    font-size: 20px;
+    background: rgb(124, 207, 14);
+    color: white;
+    font-family:'Poppins', sans-serif;
+    border: 2px solid white; 
+}
+.menu> table >tbody >tr > th{
+    text-align: center;
+    font-size: 20px;
+    background: rgb(122, 122, 122);
+    color: white;
+    font-family:'Poppins', sans-serif;
+    border: 2px solid white;
+}
+
+.imagen{
+    margin: 0;
+    width: 100%;
+    height: 35vh;
+    background-image: url('./../assets/_absolutely_free_photos_original_photos_beautiful-modern-city-landscape-at-night-4845x3230_88175.jpg') ;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+}
+
+.texto-imagen{
+    margin: auto;
+    width: 98%;
+    height: 96%;
+    border: 1px solid white;
+}
+
+.texto-imagen > h3{
+    color: white;
+    font-size: 20px;
+    font-weight:lighter;
+    font-family:'Poppins', sans-serif;
+    position: absolute;
+    right: 245px;
+    top: 33%;
+
+}
+
+.texto-imagen > h1{
+    color: white;
+    font-size: 60px;
+    font-weight: lighter;
+    font-family:'Poppins', sans-serif;
+    position: absolute;
+    right: 120px;
+    bottom: 30%;
+}
+
+.texto-imagen > p{
+    color: white;
+    font-size: 20px;
+    font-weight:lighter;
+    font-family:'Poppins', sans-serif;
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+}
+
+.col1{
+    float: left;
+    width: 25%;
+    height: 45vh;
+    background: rgb(116, 3, 91);
+    border: 8px solid white;
+    position: relative;
+    padding-top: 20px;
+    
+}
+
+.col1>.text1>h1{
+    text-align: center;
+    font-size: 15px;
+    font-weight: lighter;
+    font-family:'Poppins', sans-serif;
+    color: white;
+
+}
+.col1>.text1>p{
+    text-align: center;
+    font-size: 15px;
+    font-family:'Poppins', sans-serif;
+    font-weight: bold;
+    color: white;
+}
+
+.circle1{
+    border-radius: 100%;
+    border: 7px solid white;
+    width: 60%;
+    height: 59%;
+    background: rgb(241, 0, 241);
+    position: absolute;
+    bottom: 18%;
+    left: 20%;
+    
+}
+
+
+
+.circle1>h2{
+    font-size: 45px;
+    font-weight: lighter;
+    font-family:'Poppins', sans-serif;
+    color: white;
+    position: absolute;
+    bottom: 35%;
+    left: 4%;
+
+}
+.circle1>h3{
+    font-size: 20px;
+    font-weight: lighter;
+    font-family:'Poppins', sans-serif;
+    color: white;
+    position: absolute;
+    bottom: 28%;
+    right: 5%;
+
+}
+
+.col1>.text2>p{
+    font-size: 20px;
+    font-family:'Dancing Script', cursive;
+    color: white;
+    position: absolute;
+    bottom: 5%;
+    left: 20%;
+}
+
+.col2{
+    float: left;
+    width: 25%;
+    height: 45vh;
+    background: rgb(54, 54, 54);
+    border: 10px solid white;
+    position: relative;
+    padding-top: 20px;
+}
+
+.col2>.text1>h1{
+    text-align: center;
+    font-size: 20px;
+    font-weight: lighter;
+    font-family:'Poppins', sans-serif;
+    color: white;
+
+}
+.col2>.text1>p{
+    text-align: center;
+    font-size: 15px;
+    font-family:'Poppins', sans-serif;
+    color: white;
+}
+.circle2{
+    border-radius: 100%;
+    border: 7px solid greenyellow;
+    width: 50%;
+    height: 50%;
+    background: rgb(54,54,54);
+    position: absolute;
+    bottom: 25%;
+    left: 25%;
+    
+}
+
+
+
+.circle2>h2{
+    font-size: 30px;
+    font-weight: lighter;
+    font-family:'Poppins', sans-serif;
+    color: white;
+    position: absolute;
+    bottom: 35%;
+    left: 4%;
+
+}
+.circle2>h3{
+    font-size: 15px;
+    font-weight: lighter;
+    font-family:'Poppins', sans-serif;
+    color: white;
+    position: absolute;
+    bottom: 28%;
+    right: 5%;
+
+}
+
+.col2>.text2>p:nth-child(1){
+    text-align: center;
+    font-size: 8px;
+    font-family:'Poppins', sans-serif;
+    color: white;
+    position: absolute;
+    bottom: 10%;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.col2>.text2>p:nth-child(2){
+    text-align: center;
+    font-size: 8px;
+    font-family:'Poppins', sans-serif;
+    color: white;
+    position: absolute;
+    bottom: 5%;
+    left: 30%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.col3{
+    float: left;
+    width: 25%;
+    height: 45vh;
+    background: white;
+    border: 10px solid white;
+}
+.col3>img:nth-child(1){
+    width: 60%;
+}
+
+.col3>img:nth-child(2){
+    width: 70%;
+}
+
+.col4{
+    float: left;
+    width: 25%;
+    height: 45vh;
+    background-image: url('./../assets/Beautiful_Green_Leaf_Background.jpg') ;
+    background-size: 100% 100%;
+    border: 10px solid white;
+    padding-top: 20px;
+    position: relative;
+}
+
+.col4>.text1>h1{
+    text-align: left;
+    font-size: 45px;
+    font-weight: lighter;
+    font-family:'Poppins', sans-serif;
+    color: white;
+    position: absolute;
+    top: 15%;
+    left: 20%;
+    
+
+}
+.col4>.text1>p{
+    text-align: left;
+    font-size: 20px;
+    font-family:'Poppins', sans-serif;
+    color: white;
+    position: absolute;
+    top: 10%;
+    left: 20%;
+}
+.col4>.text2>p{
+    text-align: left;
+    font-size: 20px;
+    font-family:'Poppins', sans-serif;
+    color: white;
+    position: absolute;
+    top: 10%;
+    left: 20%;
+}
+
+.col4>.text2>p:nth-child(1){
+    text-align: center;
+    font-size: 15px;
+    font-weight: lighter;
+    font-family:'Poppins', sans-serif;
+    color: greenyellow;
+    position: absolute;
+    top: 35%;
+    left: 20%;
+}
+
+.col4>.text2>p:nth-child(2){
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    font-family:'Poppins', sans-serif;
+    color: white;
+    position: absolute;
+    top: 45%;
+    left: 20%;
+}
+
+.col4>.text2>p:nth-child(3){
+    text-align: center;
+    font-size: 15px;
+    font-weight: lighter;
+    font-family:'Poppins', sans-serif;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 20%;
+}
+
+.col4>.text2>p:nth-child(4){
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    font-family:'Poppins', sans-serif;
+    color: white;
+    position: absolute;
+    top: 60%;
+    left: 20%;
+}
+
+.col4>.text2>p:nth-child(5){
+    text-align: center;
+    font-size: 15px;
+    font-weight: lighter;
+    font-family:'Poppins', sans-serif;
+    color: white;
+    position: absolute;
+    top: 65%;
+    left: 20%;
+}
+
+.col4>.text2>p:nth-child(6){
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    font-family:'Poppins', sans-serif;
+    color: white;
+    position: absolute;
+    top: 75%;
+    left: 20%;
+}
+
+.col4>.text2>p:nth-child(7){
+    text-align: center;
+    font-size: 15px;
+    font-weight: lighter;
+    font-family:'Poppins', sans-serif;
+    color: white;
+    position: absolute;
+    top: 80%;
+    left: 20%;
+}
