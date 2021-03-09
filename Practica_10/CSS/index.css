@@ -1,0 +1,59 @@
+body{
+    height: 100vh;
+    width: 100vw;
+    background: #000;
+}
+
+.bolita{
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    bottom: 0%;
+    left: 0%;
+    border-radius: 50%;
+    background: white;
+    animation: rebote 4s alternate infinite;
+}
+
+@keyframes rebote{
+        0%{
+            bottom: 0%;
+            left: 0%;
+        }
+        20%{
+           bottom: 90%;
+           left: 20%;
+           background: blue;
+           -webkit-animation-timing-function: ease-out;
+
+          }
+        40%{
+           bottom: 0%;
+           left: 40%;  
+           background:green;
+           -webkit-animation-timing-function: ease-in;
+
+          }
+         60%{
+           bottom: 90%;
+           left: 60%;
+           background: pink;
+           -webkit-animation-timing-function: ease-out;
+
+           }
+        80%{
+           bottom: 0%;
+           left: 80%; 
+           background: yellow;
+           -webkit-animation-timing-function: ease-in;
+
+          }
+        100%{
+            bottom: 90%;
+            left: 100%;
+            background: purple;
+            -webkit-animation-timing-function: ease-out;
+
+        }
+
+}
