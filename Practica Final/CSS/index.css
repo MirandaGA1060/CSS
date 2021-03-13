@@ -9,11 +9,12 @@ span{
     font-weight:500;
 }
 
-header{
+.header{
     width: 100%;
     height: 15vh;
     margin: 0;
     padding: 0;
+    position: fixed;
 }
 
 .header .logo{
@@ -74,7 +75,6 @@ header{
     padding: 0;
     background-attachment: fixed;
     background-size: cover;
-
 }
 
 .construccion h1{
@@ -86,5 +86,58 @@ header{
     left: 50%;
     transform: translateX(-50%);
     color: white;
+}
 
+.servicios{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    padding-top: 12%;
+}
+
+hr{
+    width: 150px;
+    border: 6px solid rgb(252, 217, 23);
+}
+
+.servicios h1{
+    font-size: 70px;
+    font-family: 'Karla', sans-serif;
+    color: rgb(39, 41, 53);
+    position: absolute;
+    top: 3%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.servicios .paneles{
+    width: 80%;
+    height: 70vh;
+    display: flex;
+    justify-content:center;
+    margin: 5% auto;
+}
+
+.servicios .paneles .panel{
+    width: 300px;
+    margin: 8px;
+    background: rgb(236, 236, 236);
+}
+
+.servicios .paneles .panel p{
+    font-size: 15px;
+    font-family: 'Helvetica', sans-serif;
+    font-weight: lighter;
+    line-height: 1.6;
+    text-align: justify;
+    margin: 10%;
+}
+
+.servicios .paneles .panel h2{
+    font-size: 20px;
+    font-family: 'Helvetica', sans-serif;
+    color: rgb(56, 60, 83);
+    margin: 10%;
+    margin-top: 30px;
+    text-align: left;
 }
